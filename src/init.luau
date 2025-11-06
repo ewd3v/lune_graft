@@ -18,6 +18,7 @@ local fs = pathfs.fs
 
 local GraftExtension = setmetatable({}, Graft) :: impl
 GraftExtension.__index = GraftExtension
+
 export type proto = {
 	_watchThread: thread,
 } & Graft.proto
