@@ -26,7 +26,7 @@ export type impl = typeof(setmetatable(
 	{} :: {
 		__index: impl,
 
-		new: (source: string?) -> GraftExtension,
+		new: (source: string?, module: pathfs.AsPath?) -> GraftExtension,
 	},
 	Graft
 ))
