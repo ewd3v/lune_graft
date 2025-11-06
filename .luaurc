@@ -7,7 +7,8 @@
   "typeErrors": true,
   "globals": [],
   "aliases": {
-    "pkg": "./luau_packages",
-    "luau_pkg": "./luau_packages"
+    "pkg": "./lune_packages",
+    "luau_pkg": "./luau_packages",
+    "lune": "~/.lune/.typedefs/0.10.4/"
   }
 }

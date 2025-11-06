@@ -16,10 +16,10 @@ frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://git
 luau-lsp = [{ name = "pesde/luau_lsp", version = "=1.53.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "=2.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 
-[graph."ewdev/graft@0.1.0 luau"]
-direct = ["graft", { name = "ewdev/graft", version = "=0.1.0", index = "default", target = "luau" }, "standard"]
+[graph."ewdev/graft@0.1.1 luau"]
+direct = ["graft", { name = "ewdev/graft", version = "=0.1.1", index = "default", target = "luau" }, "standard"]
 
-[graph."ewdev/graft@0.1.0 luau".pkg_ref]
+[graph."ewdev/graft@0.1.1 luau".pkg_ref]
 ref_ty = "pesde"
 index_url = "https://github.com/pesde-pkg/index"
 
@@ -52,6 +52,9 @@ index_url = "https://github.com/pesde-pkg/index"
 
 [graph."jiwonz/luau_path@0.2.0 luau".pkg_ref.dependencies]
 luau_disk = [{ name = "jiwonz/luau_disk", version = "^0.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+[graph."jiwonz/pathfs@0.6.0 lune"]
+direct = ["pathfs", { name = "jiwonz/pathfs", version = "^0.6.0", index = "default" }, "standard"]
 
 [graph."jiwonz/pathfs@0.6.0 lune".dependencies]
 greentea = ["jiwonz/greentea_luau@0.2.0 luau", "standard"]
