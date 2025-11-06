@@ -1,5 +1,5 @@
 name = "ewdev/graft_lune"
-version = "0.0.0"
+version = "0.1.0"
 description = "Hot reloading for Lune"
 authors = ["EwDev (https://ewdev.net/)"]
 repository = "https://github.com/ewd3v/lune_graft"
